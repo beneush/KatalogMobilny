@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KatalogMobilny.MainPage">
+    <VerticalStackLayout Padding="16" x:Name="MainLayout">
+        <Label Text="Procesor" FontSize="12" FontAttributes="Bold" 
+               TextColor="#008BFF" HorizontalOptions="Center" Margin="0,20"/>
+        <Image Source="procesor.jpg" Aspect="AspectFit" />
+        <Label Text="Cena: 899 zł" TextColor="Gray" />
+        
+        <Label x:Name="EtykietaWyniku" Text="Nic nie wybrano" />
+        <Button Text="Pokaż" Clicked="PokazClicked"/>
+    </VerticalStackLayout>
+    <!--
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a submarine number ten" />
+
+            <Label
+                x:Name="EtykietaPowitania"
+                Text="Witaj w katalogu"
+                FontSize="24" />
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Kliknij mnie" 
+                Clicked="CounterBtn_Clicked" />
+        </VerticalStackLayout>
+    </ScrollView>
+-->
+</ContentPage>
