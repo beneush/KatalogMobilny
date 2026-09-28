@@ -9,9 +9,9 @@
             InitializeComponent();
             //alternatywne tworzenie elementów interfejsu zamiast
             //xamla - tego nie robimy!
-            Label etykieta = new Label();
-            etykieta.Text = "Procesor";
-            etykieta.Parent = MainLayout;
+            //Label etykieta = new Label();
+            //etykieta.Text = "Procesor";
+            //etykieta.Parent = MainLayout;
         }
 
         private void PokazClicked(object sender, EventArgs e)
