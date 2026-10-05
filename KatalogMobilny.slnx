@@ -1,3 +1,5 @@
 <Solution>
-  <Project Path="KatalogMobilny/KatalogMobilny.csproj" />
+  <Project Path="KatalogMobilny/KatalogMobilny.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
 </Solution>
